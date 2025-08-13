@@ -375,9 +375,6 @@ Query Parameters:
 - [ ] Performance tests
 - [ ] E2E tests
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ## 👥 Contribución
 
@@ -389,12 +386,9 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 📞 Contacto
 
-- **Desarrollador**: [Tu Nombre]
-- **Email**: [tu.email@ejemplo.com]
-- **LinkedIn**: [tu-linkedin]
+- **Desarrollador**: Jonatan Muñoz
+- **Email**: jonatanmunoz3008@gmail.com
 
 ---
 
 **¡Gracias por revisar este proyecto!** 🚀
-#   a p p _ s o d i m a c _ t e s t  
- 
