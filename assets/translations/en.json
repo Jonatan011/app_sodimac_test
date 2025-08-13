@@ -1,0 +1,59 @@
+{
+  "app": {
+    "title": "Sodimac Test",
+    "search": "Search products...",
+    "no_results": "No results found",
+    "error": "Error",
+    "success": "Success",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "search": {
+    "title": "Search",
+    "suggestions": "Suggestions",
+    "recent_searches": "Recent searches",
+    "no_recent_searches": "No recent searches",
+    "search_results": "Search results",
+    "products_found": "products found",
+    "load_more": "Load more",
+    "no_more_products": "No more products"
+  },
+  "product": {
+    "add_to_cart": "Add to cart",
+    "remove_from_cart": "Remove from cart",
+    "in_cart": "In cart",
+    "price": "Price",
+    "out_of_stock": "Out of stock",
+    "available": "Available"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "empty_message": "Add products from search to get started",
+    "items": "items",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clear_cart": "Clear cart",
+    "remove_item": "Remove item",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "view_cart": "View cart",
+    "navigate_message": "Use bottom navigation to go to cart"
+  },
+  "errors": {
+    "network_error": "Connection error. Check your internet.",
+    "server_error": "Server error. Try again later.",
+    "unknown_error": "Unknown error. Try again.",
+    "cache_error": "Error loading cached data",
+    "database_error": "Database error"
+  },
+  "messages": {
+    "product_added": "Product added to cart",
+    "product_removed": "Product removed from cart",
+    "cart_cleared": "Cart cleared",
+    "search_saved": "Search saved"
+  }
+}

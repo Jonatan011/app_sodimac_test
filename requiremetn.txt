@@ -1,0 +1,35 @@
+Prueba Técnica Flutter 
+Desarrolla una aplicación Flutter que consuma la API 
+(https://www.homecenter.com.co/s/search/v1/soco/?priceGroup=10&q=taladros&currentpage=1) 
+● priceGroup: siempre se envia 10  
+● q : lo que el usuario escriba en el tap de búsquedas  
+● Currentpage : pagina actual 
+La aplicación debe listar con infinity scroll todos los productos que retorne la api ( imagen , 
+precio y nombres por producto) 
+● Imagen : x.data.results[x].mediaUrls 
+● Precio : x.data.results[x].prices (donde type == NORMAL ) 
+● Nombres : x.data.results[x].displayName 
+Además una opción para agregar este producto a un carrito de compras.  Que debe 
+almacenarse localmente utilizando Drift . 
+La petición debe guardarse en caché y sólo realizarse una vez por término de búsqueda. 
+Debe implementar un appbar de sugerencias al empezar a escribir solo va a sugerir estos 
+valores  
+● Taladros 
+● Humedad 
+● Cascos 
+● botas de seguridad 
+● tornillos 
+Ejemplo :  
+Requerimientos 
+1. Consumo de API - Utiliza Dio y dio_cache_interceptor para las peticiones HTTP y el manejo de caché. 
+2. Gestión de estado - Implementa la lógica de negocio y la gestión de estado utilizando el patrón BLoC 
+3. Persistencia local - Usa Drift para almacenar localmente el carrito de compras. 
+Deseable 
+1. Manejo de performance (janks) - Simula una operación costosa (por ejemplo, guardar muchos registros o realizar un 
+procesamiento pesado al guardar en carrito). - Si la UI se ve afectada (janks), identifica el problema y aplica una solución adecuada 
+2. Pruebas unitarias - Implementar  pruebas unitarias para el BLoC y para la lógica de acceso a la base de datos. - Las pruebas deben cubrir al menos los casos de éxito y error en la obtención y guardado de 
+datos. 
+Nota: 
+Durante la evaluación de esta prueba técnica, se tendrán en cuenta las buenas prácticas de 
+Clean Code, la aplicación de los principios SOLID y el uso adecuado de patrones de diseño 
+en Flutter y Dart. Se valorará la claridad, mantenibilidad y escalabilidad del código entregado.

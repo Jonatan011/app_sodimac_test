@@ -1,0 +1,59 @@
+{
+  "app": {
+    "title": "Sodimac Test",
+    "search": "Buscar productos...",
+    "no_results": "No se encontraron resultados",
+    "error": "Error",
+    "success": "Éxito",
+    "loading": "Cargando...",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar"
+  },
+  "search": {
+    "title": "Búsqueda",
+    "suggestions": "Sugerencias",
+    "recent_searches": "Búsquedas recientes",
+    "no_recent_searches": "No hay búsquedas recientes",
+    "search_results": "Resultados de búsqueda",
+    "products_found": "productos encontrados",
+    "load_more": "Cargar más",
+    "no_more_products": "No hay más productos"
+  },
+  "product": {
+    "add_to_cart": "Agregar al carrito",
+    "remove_from_cart": "Quitar del carrito",
+    "in_cart": "En el carrito",
+    "price": "Precio",
+    "out_of_stock": "Sin stock",
+    "available": "Disponible"
+  },
+  "cart": {
+    "title": "Carrito de Compras",
+    "empty": "Tu carrito está vacío",
+    "empty_message": "Agrega productos desde la búsqueda para comenzar",
+    "items": "productos",
+    "total": "Total",
+    "checkout": "Finalizar compra",
+    "clear_cart": "Vaciar carrito",
+    "remove_item": "Eliminar producto",
+    "quantity": "Cantidad",
+    "subtotal": "Subtotal",
+    "view_cart": "Ver carrito",
+    "navigate_message": "Usa la navegación inferior para ir al carrito"
+  },
+  "errors": {
+    "network_error": "Error de conexión. Verifica tu internet.",
+    "server_error": "Error del servidor. Intenta más tarde.",
+    "unknown_error": "Error desconocido. Intenta nuevamente.",
+    "cache_error": "Error al cargar datos en caché",
+    "database_error": "Error en la base de datos"
+  },
+  "messages": {
+    "product_added": "Producto agregado al carrito",
+    "product_removed": "Producto removido del carrito",
+    "cart_cleared": "Carrito vaciado",
+    "search_saved": "Búsqueda guardada"
+  }
+}
